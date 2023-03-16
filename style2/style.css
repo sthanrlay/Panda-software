@@ -1,0 +1,266 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    background: linear-gradient(rgb(245, 243, 248), rgb(169, 168, 170));
+}
+
+.topo{
+    height: 30px;
+    background-color: rgb(39, 39, 39);
+}
+.topoint{
+    width: 100%;
+    max-width: 1100px;
+    height: 30px;
+    margin: auto;
+}
+
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+.toporight{
+    width: 50%;
+    height: 30px;
+    float: right;
+    text-align: right;
+    margin-top: 2px;
+}
+
+.topoleft ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topoleft li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}.topoleft li a{
+    text-decoration: none;
+    color: white;
+}
+
+.topoleft li a:hover{
+   color: rgb(4, 0, 255);
+   transition: 0.4s;
+}
+
+.topobusca{
+    width: 120px;
+    height: 20px;
+    outline: 0;
+}
+
+.toporight a{
+    float: right;
+}
+
+.toporight input{
+    float: right;
+}
+
+.toporight img{
+    margin-right: 5px;
+}
+
+.topo2{
+    height: 95px;
+    background: linear-gradient(rgb(47, 7, 226), rgb(4, 20, 243));
+    border-radius: 2px;
+}
+.topo2int{
+    width: 100%;
+    max-width: 1100px;
+    height: 95px;
+    margin: auto;
+}
+.logo{
+    width: 230px;
+    height: 90px;
+    float: left;
+    margin-top: 6px;
+}
+
+.topo2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+}
+
+.menu{
+    height: 20px;
+    background: linear-gradient(rgb(4, 20, 243), rgb(96, 4, 243));
+}
+
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    display: none;
+}
+
+.ultimosprojeto{
+    height: 40px;
+}
+
+.ultimosprojetoint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+
+}
+
+.projetos{
+    height: 28px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+
+}
+
+.titulo{
+    background-color: rgb(47, 0, 255);
+    color: white;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.titulo2{
+    color: black;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+.leftside{
+    float: left;
+}
+
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    margin-left: 12px;
+}
+
+.lateral{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #363636;
+    background-color: #363636;
+    padding-left: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.rotulo{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rotulo a img{
+    margin-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lateral2{
+    height: 30px;
+    line-height: 40px;
+    background-color:#363636;
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.rotulo2{
+    border: 1px solid #ccc;
+    background-color: #fff;
+
+}
+
+.login{
+    margin-left: 140px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width:1057px){
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultimosprojetoint,
+    .containerint,
+    .rightside,
+    .titulo
+    .titulo2{
+        max-width:890px;
+        align-items: center;
+        text-align: center;
+        margin-right: 19%;
+    }
+    .leftside,
+    .image{
+        width: 480px;
+        height: auto;
+        margin-top:11px;
+    }
+    .banner{
+        display: none;
+    }
+
+    p,
+    .login,
+    strong{
+        margin-left: 100px;
+        margin-right:80px;
+        
+    }
+}
